@@ -18,16 +18,13 @@ public class SplashScreen extends Activity {
 	        	startActivity(new Intent( getApplication(), HomeScreen.class) );
 	        	// get rid of the SplashScreen activity
 	        	finish();
-
 		}
-
 	}
 	
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //setContentView(R.layout.splash_screen);
         setContentView(R.layout.splash_screen);
         
         Handler h = new Handler();
